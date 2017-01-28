@@ -1,0 +1,45 @@
+body {
+  background: #36D7B7;
+  margin: 10px;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+::selection {
+  background: #3f3f4e;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}
+.title p {
+  color: #212129;
+  font-size: 1.3em;
+}
+
+.title .notice {
+  color: #fff;
+}
+.title .notice span {
+  color: #212129;
+  font-weight: bold;
+  border-bottom: #fff 2px solid;
+}
+
+/*STYLES*/
+#canvas {
+  background: #fff;
+  border: #212129 3px solid;
+}
+#canvas_container {
+  width: 1000px;
+  margin: 20px auto;
+}
